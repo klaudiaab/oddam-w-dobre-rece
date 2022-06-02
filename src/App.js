@@ -11,8 +11,10 @@ function App() {
           <Route path="//">
             <Home></Home>
           </Route>
-          <Route path="/zaloguj" component={Login}></Route>
-          <Route path="/zarejestruj-sie">
+          <Route path="/logowanie">
+            <Login></Login>
+          </Route>
+          <Route path="/rejestracja">
             <Register></Register>
           </Route>
         </Switch>

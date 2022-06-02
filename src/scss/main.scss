@@ -1,8 +1,11 @@
 @import "./generic/reset.scss";
 @import "./settings/fonts.scss";
+@import "./settings/mixins";
 @import "./settings/colors";
 @import "./elements/header_menu";
 @import "./elements/header_article";
+@import "./elements/three_colums";
+
 body {
   font-family: $font-base;
   background-color: #ffffff;

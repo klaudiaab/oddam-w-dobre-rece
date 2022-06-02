@@ -1,11 +1,11 @@
 .article_section {
   display: flex;
-
   #household_things {
-    top: 0px;
-    margin-left: -483px;
+    background-image: url("../../assets/images/Home-Hero-Image.jpg");
+    left: -483px;
     width: 1368px;
     height: 963px;
+    background-position: right;
   }
   .article {
     margin-top: 210px;
